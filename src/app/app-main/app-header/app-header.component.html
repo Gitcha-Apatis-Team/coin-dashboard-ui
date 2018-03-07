@@ -1,0 +1,49 @@
+<header fxLayout="row">
+  <div fxLayout="row" fxFlex="70%" fxLayoutAlign="start stretch" fxShow fxHide.xs="true" fxHide.lg="false">
+    <button mat-button>Home</button>
+    <button mat-button>시세</button>
+    <button mat-button>About</button>
+    <button mat-button>정보</button>
+  </div>
+  <div fxLayout="row" fxFlex="30%" fxLayoutAlign="end stretch" fxShow fxHide.xs="true" fxHide.lg="false">
+    <button mat-button>사이트맵</button>
+    <button mat-button>연락처</button>
+  </div>
+
+  <div fxLayout="column" fxFill fxHide fxShow.xs="true">
+
+    <mat-accordion>
+      <mat-expansion-panel>
+        <mat-expansion-panel-header>
+          <mat-panel-title>
+            메뉴 목록
+          </mat-panel-title>
+          <mat-panel-description>
+            하위 메뉴
+          </mat-panel-description>
+        </mat-expansion-panel-header>
+
+        <mat-toolbar color="primary">
+          <mat-toolbar-row>
+            <span>Home</span>
+          </mat-toolbar-row>
+
+          <mat-toolbar-row>
+            <span>시세</span>
+            <span class="example-spacer"></span>
+            <mat-icon class="example-icon">verified_user</mat-icon>
+          </mat-toolbar-row>
+
+          <mat-toolbar-row>
+            <span>About</span>
+            <span class="example-spacer"></span>
+            <mat-icon class="example-icon">favorite</mat-icon>
+
+          </mat-toolbar-row>
+        </mat-toolbar>
+
+      </mat-expansion-panel>
+    </mat-accordion>
+
+  </div>
+</header>
