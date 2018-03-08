@@ -1,6 +1,13 @@
-/* You can add global styles to this file, and also import other style files */
+/*!
+ styles.scss
+ 
+ add bootstrap 4.0.0
 
-// 공통 템플릿 IMPORT
-@import '~@angular/material/prebuilt-themes/indigo-pink.css';
-// 공통 색상
-@import 'variables';
+ angular material theme
+ deeppurple-amber
+ indigo-pink
+ pink-bluegrey
+ purple-green
+ */
+
+@import "./bootstrap/bootstrap";

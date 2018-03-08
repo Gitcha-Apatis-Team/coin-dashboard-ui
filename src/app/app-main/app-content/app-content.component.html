@@ -1,10 +1,25 @@
-<div fxLayout="row" fxLayoutGap="2rem">
-  <article fxLayout="column" fxFlex="100%">
+<div>
+  <article>
     content 영역
-    <mat-list role="list">
+    <!-- <mat-list role="list">
       <mat-list-item role="listitem">Item 1</mat-list-item>
       <mat-list-item role="listitem">Item 2</mat-list-item>
       <mat-list-item role="listitem">Item 3</mat-list-item>
-    </mat-list>
+    </mat-list> -->
   </article>
 </div>
+
+
+<div class="btn-group btn-group-toggle">
+  <label class="btn-primary" ngbButtonLabel>
+    <input type="checkbox" ngbButton> Left (pre-checked)
+  </label>
+  <label class="btn-primary" ngbButtonLabel>
+    <input type="checkbox" ngbButton> Middle
+  </label>
+  <label class="btn-primary" ngbButtonLabel>
+    <input type="checkbox" ngbButton> Right
+  </label>
+</div>
+<hr>
+<pre>{{model | json}}</pre>
